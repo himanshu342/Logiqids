@@ -1,0 +1,28 @@
+.heading{
+    display: flex;
+
+}
+.firstspan{
+    background: red;
+    height: 30px !important;
+    width: 15%;
+    margin-top: 1%;
+}
+.secondspan{
+    width: 25%;
+}
+.thirdspan{
+    background:red;
+    height: 30px !important;
+    width: 65%;
+    margin-top: 1%;
+}
+@media (max-width: 1000px) {
+    .secondspan{
+        width: 40%;
+    }
+    .thirdspan{
+        width: 50%;
+    }
+   }
+
